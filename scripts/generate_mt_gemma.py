@@ -99,7 +99,7 @@ def main():
     json_file = args.json_file #"combo_data/ELRC-2726-EMEA.en-pl.health.0-shot.test-hf.json" #"combo_data/CCMatrix.es-eu.eng-tech.0-shot.test-hf.json" #"combo_data/CCMatrix.en-pl.eng-tech.5-shot.test-hf.json"
     mt_output_file = args.mt_output_file #"combo_data/ELRC-2726-EMEA.en-pl.health.0-shot.gemma.test-mt.finetune.pl" #"combo_data/CCMatrix.en-pl.eng-tech.5-shot.test-mt.finetune.csv" #"combo_data/CCMatrix.en-pl.eng-tech.5-shot.test-mt.csv"
     size = args.size #10
-    max_length = args.max_lenght #512
+    max_length = args.max_length #512
     top_p = args.top_p #0.9
 
     print(json_file)
